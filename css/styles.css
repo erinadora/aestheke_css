@@ -1,0 +1,335 @@
+@font-face {
+  font-family: 'agp';
+  src: url("../fonts/AdobeGaramondProRegular.ttf");
+}
+
+@font-face {
+  font-family: 'tall';
+  src: url("../fonts/TallFilmsExpanded.ttf");
+}
+
+@font-face {
+  font-family: 'btf';
+  src: url("../fonts/basictitlefont.ttf");
+}
+
+@font-face {
+  font-family: 'tall';
+  src: url("../fonts/TallFilmsExpanded.ttf");
+}
+
+@font-face {
+  font-family: 'tall';
+  src: url("../fonts/TallFilmsExpanded.ttf");
+}
+
+@font-face {
+  font-family: 'tall';
+  src: url("../fonts/TallFilmsExpanded.ttf");
+}
+
+@font-face {
+  font-family: 'soc';
+  src: url("../fonts/Pe-icon-social.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: agp;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  font-weight: 100;
+  color: #525252 ;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: btf;
+  text-align: center;
+  display: inline-block;
+  font-size: 38px;
+  letter-spacing: 14px
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#smalls {
+  width: 50px;
+  margin: auto;
+}
+
+#icons {
+  display: inline-block;
+  float: left;
+  width: 100px;
+  margin-left: 60px;
+  margin-top: 10px;
+  height: 24px;
+}
+
+#icons img {
+  margin: 15px;
+}
+
+#right {
+  float: right;
+  width: 200px;
+  margin: 15px;
+}
+
+#top {
+  height: 60px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#menu {
+  margin: auto;
+  font-size: 11px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-right: 70px;
+}
+
+#menu li {
+  margin: 13px;
+  font-size: 9.5px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.soci {
+  font-family: soc;
+}
+
+.main {
+  margin: auto;
+  width: 100%;
+}
+
+.feature {
+  height: 550px;
+  margin-bottom: 10px;
+  background: url("../images/cer1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.one {
+  height: 375px;
+  background: url("../images/ice.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.two, .three {
+  width: 100%;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+hr {
+  color: #ccc;
+  height: 2px;
+}
+
+.gallery {
+  margin-left: 70px!important;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
+
+.gallery img {
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.un, .du, .trois {
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+  float: left;
+}
+
+.footer {
+  display: block;
+}
+
+#foot {
+  margin: 10px auto;
+  text-align: center;
+}
+
+#foot li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  margin: 15px;
+
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+  header {
+    margin: 20px auto;
+    height: 50px!important
+  }
+
+  #right {
+    margin: 15px auto;
+    float: none;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 15px auto;
+    margin-left: 30px!important;
+  }
+
+  #menu {
+    margin-right: 50px;
+    width: 350px;
+    line-height: 10%;
+  }
+
+  .gallery {
+    /*margin-right: 50px!important;*/
+    margin-left: 0px!important;
+  }
+
+  .gallery h2, p {
+    font-size: 90%;
+  }
+
+  .gallery img {
+    display: block!important;
+    float: none;
+  }
+
+  .un, .du, .trois {
+    display: block!important;
+    width: 100%;
+    margin: auto!important;
+  }
+
+  #right {
+    display: none;
+  }
+
+  #icons {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 599px) {
+  header {
+    margin: 20px auto;
+    height: 70px!important;
+  }
+
+  #right {
+    margin: 15px auto;
+    float: none;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 15px auto;
+    margin-right: 70px;
+  }
+
+  #menu {
+    margin-right:
+  }
+
+  .un, .du, .trois {
+    display: block!important;
+    width: 100%;
+    margin: auto;
+  }
+
+  .gallery {
+    margin-left: 0px!important;
+  }
+
+  #right {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  header {
+    margin: 20px auto;
+  }
+
+  #right {
+    margin: 15px auto;
+    float: none;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 15px auto;
+    margin-right: 80px;
+  }
+
+  #menu {
+    margin-right: 40px;
+  }
+
+  .gallery {
+    margin: auto!important;
+    margin-left: 30px!important;
+    width: 100%;
+    text-align: center;
+  }
+
+  .gallery img {
+    width: 105%;
+  }
+
+  #right {
+    display: none;
+  }
+
+}
